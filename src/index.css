@@ -26,7 +26,7 @@ textarea:focus, input:focus, select:focus {
 } 
 
 h1 {
-  @apply text-3xl text-secondary-400 mb-6
+  @apply text-3xl text-secondary-400 mb-6 font-bold
   xsm:text-4xl sm:text-5xl md:text-6xl
   mobile:text-5xl mobile:text-center
 }
