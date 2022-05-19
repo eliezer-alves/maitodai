@@ -1,10 +1,9 @@
-import PdfViewer from "./pages/PdfViewer";
+import Router from "./main/router";
 
 function App() {
-  return (<>
-    <h1>Maito Dai</h1>
-    <PdfViewer />
-  </>);
+  return (
+    <Router />
+  );
 }
 
 export default App;
